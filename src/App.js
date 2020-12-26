@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 
 import { getPosts } from './actions/posts';
 
-import Posts from './components/Posts/Post';
+import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 
 import memories from './images/memories.png';
@@ -35,7 +35,7 @@ const App = () => {
         <Container>
           <Grid
             container
-            justify="space-bewteen"
+            justify="space-between"
             alignItems="stretch"
             spacing={3}
           >
