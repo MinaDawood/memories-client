@@ -1,10 +1,4 @@
-import {
-  CREATE,
-  UPDATE,
-  DELETE,
-  FETCH_ALL,
-  LIKE,
-} from '../constants/actionTypes';
+import { CREATE, UPDATE, DELETE, FETCH_ALL } from '../constants/actionTypes';
 import * as api from '../api';
 
 // Action Creators
